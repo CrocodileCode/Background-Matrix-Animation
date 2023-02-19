@@ -34,9 +34,11 @@ function animate() {
   }
 
   // clear the canvas
+
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   // draw the matrix
+
   var cellSize = 20;
   var x = (canvas.width - cellSize * matrix[0].length) / 2;
   var y = (canvas.height - cellSize * matrix.length) / 2;
@@ -49,10 +51,12 @@ function animate() {
   }
 
   // request the next frame
+
   requestAnimationFrame(animate);
 }
 
 // start the animation
+
 animate();
 
 
